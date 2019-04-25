@@ -1,0 +1,18 @@
+{
+  "name": "webpack-test-pro",
+  "version": "1.0.0",
+  "description": "自己搭建的webpack项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --config webpack.config.js --progress --display-module --colors --display-reason"
+  },
+  "author": "qinqinliu",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6"
+  }
+}
